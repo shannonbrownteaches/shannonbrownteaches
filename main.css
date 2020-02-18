@@ -8,6 +8,7 @@ body {
     font-weight: 400;
     line-height: 1.4;
     color: gray;
+    width: 80%;
 }
 
 ul, ol {
@@ -121,6 +122,10 @@ pre {
         float: right;
         display: block;
     }
+    
+    body {
+        width: 100%;
+    }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -150,7 +155,7 @@ pre {
 }
 
 .content {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
